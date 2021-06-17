@@ -2,22 +2,31 @@
   "name": "@my-cli-learn/core",
   "version": "1.0.0",
   "description": "核心",
-  "author": "junjie.yuan@stanlogy.com <Aa123456>",
+  "author": "junjie.yuan@stanlogy.com",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "bin": {
-    "imooc-cli-dev": "bin/index.js"
+    "cli-test": "bin/index.js"
   },
   "files": [
     "lib"
   ],
   "dependencies": {
-    "@my-cli-learn/utils": "^1.0.0"
+    "@my-cli-learn/log": "file:../../utils/log",
+    "@my-cli-learn/get-npm-info": "file:../../utils/get-npm-info",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "import-local": "^3.0.2",
+    "minimist": "^1.2.5",
+    "path-exists": "^4.0.0",
+    "root-check": "^2.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"

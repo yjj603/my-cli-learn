@@ -2,7 +2,7 @@
   "name": "@my-cli-learn/utils",
   "version": "1.0.0",
   "description": "> TODO: description",
-  "author": "junjie.yuan@stanlogy.com <Aa123456>",
+  "author": "junjie.yuan@stanlogy.com",
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
